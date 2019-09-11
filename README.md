@@ -11,7 +11,7 @@ verdi import FIQCEN.aiida
 
 ## Usage
 
-Run using `jupyter notebook` or `panel server detail.ipynb`.
+Run using `jupyter notebook` or `panel serve detail.ipynb`.
 
 Try entering UUIDs or PKs or WorkChains into the text field, e.g.:
  * 8f663444-bd11-4969-a5c7-4bf0df8e0366
