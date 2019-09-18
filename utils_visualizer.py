@@ -138,9 +138,9 @@ def plot_steps(out_dict, units):
     colors = ['red','orange','green','yellow','cyan','pink','palegreen']
     start = 0
     for i,steps in enumerate(out_dict['stage_info']['nsteps']):
-        end = start+steps-1
+        end = start+steps
         p.add_layout(BoxAnnotation(left=start, right=end, fill_alpha=0.2, fill_color=colors[i]))
-        start = end+1
+        start = end
 
     # Trace line and markers
     p.line('index', 'energy', source=data, line_color='blue')
